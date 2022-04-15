@@ -26,7 +26,7 @@ public class TestClass {
                 if (runnedLast == null) {
                     runnedLast = m;
                 } else {
-                    throw new RuntimeException("Только 1 метод @BeforeSuite");
+                    throw new RuntimeException("Только 1 метод @AfterSuite");
 
                 }
             }
